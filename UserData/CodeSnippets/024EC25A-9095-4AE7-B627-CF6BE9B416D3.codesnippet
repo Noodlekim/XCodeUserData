@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iflet</string>
+	<string>opb</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>                if let &lt;#variable#&gt; = &lt;#variable#&gt; {
-                    
-                }</string>
+	<string>if let &lt;#variable#&gt; = &lt;#variable#&gt; {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>024EC25A-9095-4AE7-B627-CF6BE9B416D3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>let var = var { }</string>
+	<string>optional binding</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

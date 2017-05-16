@@ -9,16 +9,15 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>                dispatch_async(dispatch_get_main_queue()) {
-                    &lt;#coding#&gt;
-                }
-</string>
+	<string>DispatchQueue.main.async {
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6F9BE8FC-1F69-48BF-A716-FDC409D8C820</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dispatch main</string>
+	<string>dispatch main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

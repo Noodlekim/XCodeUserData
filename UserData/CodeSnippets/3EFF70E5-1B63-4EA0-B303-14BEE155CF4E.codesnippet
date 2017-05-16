@@ -6,46 +6,46 @@
 	<string>collectionview delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // Mark: UICollectionViewDataSource methods
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+	<string>// Mark: UICollectionViewDelegate, UICollectionViewDataSource
+
+extension &lt;#className#&gt;: UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
         
         return 0
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
         return UICollectionViewCell()
     }
     
-    // Mark: UICollectionViewDelegateFlowLayout methods
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -&gt; CGSize {
         
-        return CGSizeMake(ViewManager.myAppWidth, 200)
+        return CGSize.zero
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -&gt; UIEdgeInsets {
-        // (top: CGFloat, _ left: CGFloat, _ bottom: CGFloat, _ right: CGFloat)
         return UIEdgeInsetsMake(0, 0, 0, 0)
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -&gt; CGFloat {
-        //        KLLog("section &gt;&gt; \(section)")
         return 0
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -&gt; CGFloat {
-        //        KLLog("section &gt;&gt; \(section)")
         return 0
     }
-</string>
+
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3EFF70E5-1B63-4EA0-B303-14BEE155CF4E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CollectionView Delegate</string>
+	<string>collectionView Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

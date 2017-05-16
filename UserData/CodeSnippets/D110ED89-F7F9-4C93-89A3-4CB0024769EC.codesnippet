@@ -9,10 +9,9 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private func &lt;#FunctionName#&gt;() {
-        
-        
-    }
+	<string>private func &lt;#FunctionName#&gt;() {
+    
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D110ED89-F7F9-4C93-89A3-4CB0024769EC</string>
