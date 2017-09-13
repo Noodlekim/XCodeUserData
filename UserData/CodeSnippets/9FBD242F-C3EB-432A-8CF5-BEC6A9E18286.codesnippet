@@ -6,7 +6,7 @@
 	<string>tableviewdelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - UITableViewDelegate, DataSource

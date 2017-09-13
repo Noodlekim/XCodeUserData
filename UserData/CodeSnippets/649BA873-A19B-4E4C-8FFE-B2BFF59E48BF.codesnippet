@@ -6,7 +6,7 @@
 	<string>rgb</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIColor.init(red: &lt;#red#&gt;/255.0, green: &lt;#green#&gt;/255.0, blue: &lt;#blue#&gt;/255.0, alpha: 1)</string>
