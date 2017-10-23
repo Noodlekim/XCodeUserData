@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AbortOnUnknownIPC</key>
+	<true/>
+	<key>Bootstrap</key>
+	<dict>
+		<key>BinaryOrderPreference</key>
+		<string>x86_64</string>
+		<key>Child</key>
+		<dict>
+			<key>DYLD_ROOT_PATH</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot</string>
+			<key>IPHONE_SHARED_RESOURCES_DIRECTORY</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data</string>
+			<key>IPHONE_SIMULATOR_ROOT</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot</string>
+			<key>PATH</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin</string>
+			<key>SIMULATOR_AUDIO_DEVICES_PLIST_PATH</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data/var/run/com.apple.coresimulator.audio.plist</string>
+			<key>SIMULATOR_AUDIO_SETTINGS_PATH</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data/var/run/simulatoraudio/audiosettings.plist</string>
+			<key>SIMULATOR_BOOT_TIME</key>
+			<string>1508468168</string>
+			<key>SIMULATOR_CAPABILITIES</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/PrivatePlugIns/IDEInterfaceBuilderiOSIntegration.ideplugin/Contents/Resources/DeviceTypes/IBSimDeviceTypeiPad3x.simdevicetype/Contents/Resources/capabilities.plist</string>
+			<key>SIMULATOR_DEVICE_NAME</key>
+			<string>IBSimDeviceTypeiPad3x</string>
+			<key>SIMULATOR_HID_SYSTEM_MANAGER</key>
+			<string>/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework</string>
+			<key>SIMULATOR_HOST_HOME</key>
+			<string>/Users/gibong.kim.ts</string>
+			<key>SIMULATOR_LOG_ROOT</key>
+			<string>/Users/gibong.kim.ts/Library/Logs/CoreSimulator/CF681105-3724-47A8-BB95-FA590C580C0C</string>
+			<key>SIMULATOR_MAINSCREEN_HEIGHT</key>
+			<string>3072</string>
+			<key>SIMULATOR_MAINSCREEN_PITCH</key>
+			<string>264.000000</string>
+			<key>SIMULATOR_MAINSCREEN_SCALE</key>
+			<string>3.000000</string>
+			<key>SIMULATOR_MAINSCREEN_WIDTH</key>
+			<string>2304</string>
+			<key>SIMULATOR_MEMORY_WARNINGS</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data/var/run/memory_warning_simulation</string>
+			<key>SIMULATOR_MODEL_IDENTIFIER</key>
+			<string>iPad4,2</string>
+			<key>SIMULATOR_PRODUCT_CLASS</key>
+			<string>J72</string>
+			<key>SIMULATOR_ROOT</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot</string>
+			<key>SIMULATOR_RUNTIME_BUILD_VERSION</key>
+			<string>15B5078b</string>
+			<key>SIMULATOR_RUNTIME_VERSION</key>
+			<string>11.1</string>
+			<key>SIMULATOR_SHARED_RESOURCES_DIRECTORY</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data</string>
+			<key>SIMULATOR_UDID</key>
+			<string>CF681105-3724-47A8-BB95-FA590C580C0C</string>
+			<key>SIMULATOR_VERSION_INFO</key>
+			<string>CoreSimulator 494.22.5 - Device: IBSimDeviceTypeiPad3x - Runtime: iOS 11.1 (15B5078b) - DeviceType: IBSimDeviceTypeiPad3x</string>
+			<key>SIM_DISABLE_DATA_MIGRATION_FOR_DEVTOOLS</key>
+			<string>1</string>
+			<key>XPC_SIMULATOR_LAUNCHD_NAME</key>
+			<string>com.apple.CoreSimulator.SimDevice.CF681105-3724-47A8-BB95-FA590C580C0C</string>
+		</dict>
+		<key>ChildDefaults</key>
+		<dict>
+			<key>CFFIXED_USER_HOME</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data</string>
+			<key>DYLD_FALLBACK_FRAMEWORK_PATH</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks</string>
+			<key>DYLD_FALLBACK_LIBRARY_PATH</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib</string>
+			<key>HOME</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data</string>
+			<key>TMPDIR</key>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data/tmp/</string>
+		</dict>
+		<key>Paths</key>
+		<array>
+			<string>/Users/gibong.kim.ts/Library/Developer/Xcode/UserData/IB Support/Simulator Devices/CF681105-3724-47A8-BB95-FA590C580C0C/data/Library/LaunchDaemons</string>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/LaunchDaemons</string>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/LaunchDaemons</string>
+		</array>
+		<key>Self</key>
+		<dict>
+			<key>DYLD_FALLBACK_FRAMEWORK_PATH</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks</string>
+			<key>DYLD_FALLBACK_LIBRARY_PATH</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib</string>
+			<key>DYLD_ROOT_PATH</key>
+			<string>/Users/gibong.kim.ts/Downloads/Xcode9-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot</string>
+			<key>XPC_SIMULATOR_LAUNCHD_NAME</key>
+			<string>com.apple.CoreSimulator.SimDevice.CF681105-3724-47A8-BB95-FA590C580C0C</string>
+		</dict>
+	</dict>
+	<key>ExtensionWatchdog</key>
+	<integer>0</integer>
+	<key>LogServiceLifecycle</key>
+	<false/>
+	<key>LogToFlatFile</key>
+	<true/>
+	<key>RequireDomainBinding</key>
+	<true/>
+	<key>UseGuardMalloc</key>
+	<false/>
+</dict>
+</plist>
