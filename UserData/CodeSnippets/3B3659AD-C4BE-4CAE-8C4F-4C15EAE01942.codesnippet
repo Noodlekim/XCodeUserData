@@ -6,7 +6,7 @@
 	<string>wkguard</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>guard let strongSelf = self else { return }</string>

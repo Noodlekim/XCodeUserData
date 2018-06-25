@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugp</string>
+	<string>privar</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>print("&lt;#value#&gt; -&gt; \(&lt;#value#&gt;)")</string>
+	<string>private var &lt;#valueName#&gt;: &lt;#type#&gt; = &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C081EBFC-86BB-40DD-8618-32F9074C1B63</string>
+	<string>C56B6EC2-8A96-4666-89B1-A44A63AD4BD3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Print for debug</string>
+	<string>private var</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

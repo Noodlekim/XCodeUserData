@@ -3,19 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugp</string>
+	<string>withException</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>print("&lt;#value#&gt; -&gt; \(&lt;#value#&gt;)")</string>
+	<string>withException(with: "&lt;#Exception title#&gt;", test: { (exp) in
+            
+            &lt;#Add test code#&gt;
+        }) { (_) in
+            
+            &lt;#Add timeout exception#&gt;
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C081EBFC-86BB-40DD-8618-32F9074C1B63</string>
+	<string>D269DA2B-F217-4314-BC58-0B5FE0DADB3F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Print for debug</string>
+	<string>withException</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
