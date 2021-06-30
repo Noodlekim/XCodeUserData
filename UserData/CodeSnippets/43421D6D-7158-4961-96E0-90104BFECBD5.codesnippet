@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createviewmodel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>final class &lt;#Class Name#&gt;: ObservableObject {
+
+
+    // MARK: - Inputs
+    let onAppear = PassthroughSubject&lt;Void, Never&gt;()
+    let disAppear = PassthroughSubject&lt;Void, Never&gt;()
+
+    // MARK: - Outputs
+    let scanImage = PassthroughSubject&lt;Image, Never&gt;()
+
+    private var cancellable = Set&lt;AnyCancellable&gt;()
+
+
+    init() {
+
+        onAppear
+            .sink { [weak self] _ in
+                guard let strongSelf = self else { return }
+
+            }.store(in: &amp;cancellable)
+
+        disAppear
+            .sink { [weak self] _ in
+                guard let strongSelf = self else { return }
+
+            }.store(in: &amp;cancellable)
+
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>43421D6D-7158-4961-96E0-90104BFECBD5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create ViewModel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

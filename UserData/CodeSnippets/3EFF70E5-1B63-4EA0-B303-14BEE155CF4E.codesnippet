@@ -7,6 +7,7 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// Mark: UICollectionViewDelegate, UICollectionViewDataSource
@@ -44,6 +45,8 @@ extension &lt;#className#&gt;: UICollectionViewDelegate, UICollectionViewDataSou
 	<string>3EFF70E5-1B63-4EA0-B303-14BEE155CF4E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>collectionView Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>

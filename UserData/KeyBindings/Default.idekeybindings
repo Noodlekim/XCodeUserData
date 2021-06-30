@@ -8,149 +8,83 @@
 		<array>
 			<dict>
 				<key>Action</key>
-				<string>moveKeyboardFocusToNextArea:</string>
+				<string>complete:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MoveFocusToNextArea</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>Group</key>
-				<string>Navigate Menu</string>
+				<string>Editor Menu for Asset Catalog Comparison</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDESourceCodeComparisonPegasusEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~$@</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Move Focus To Next Area</string>
+				<string>Show Completions</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>moveKeyboardFocusToNextEditor:</string>
+				<string>complete:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MoveFocusToNextEditor</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>Group</key>
-				<string>Navigate Menu</string>
+				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~$@</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Move Focus To Next Editor</string>
+				<string>Show Completions</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>moveKeyboardFocusToPreviousArea:</string>
+				<string>complete:</string>
 				<key>Alternate</key>
-				<string>YES</string>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MoveFocusToPreviousArea</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>Group</key>
-				<string>Navigate Menu</string>
+				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~$@</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Move Focus To Previous Area</string>
+				<string>Show Completions</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>moveKeyboardFocusToPreviousEditor:</string>
+				<string>complete:</string>
 				<key>Alternate</key>
-				<string>YES</string>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MoveFocusToPreviousEditor</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>Group</key>
-				<string>Navigate Menu</string>
+				<string>Editor Menu for Source Code Comparison</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDESourceCodeComparisonPegasusEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~$@</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Move Focus To Previous Editor</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>makeBaseWritingDirectionLeftToRight:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ParagraphLeftToRight</string>
-				<key>Group</key>
-				<string>Edit Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>$@`</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Writing Direction</string>
-				<key>Title</key>
-				<string>   Left to Right</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>makeBaseWritingDirectionRightToLeft:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ParagraphRightToLeft</string>
-				<key>Group</key>
-				<string>Edit Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>@*</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Writing Direction</string>
-				<key>Title</key>
-				<string>   Right to Left</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>changeToVersionEditorComparisonView:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.VersionEditorComparisonView</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~$@H</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Version Editor</string>
-				<key>Title</key>
-				<string>Show Comparison View</string>
+				<string>Show Completions</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -163,6 +97,30 @@
 				<string>Xcode.InterfaceBuilderKit.CanvasZoom.CmdDefinition.zoomIn</string>
 				<key>Group</key>
 				<string>Editor Menu for Interface Builder - Storyboard</string>
+				<key>GroupID</key>
+				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>@+</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Zoom</string>
+				<key>Title</key>
+				<string>Zoom In</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>zoomCanvasIn:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.InterfaceBuilderKit.CanvasZoom.CmdDefinition.zoomIn</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.CanvasZoom.CmdDefinition.zoomIn</string>
+				<key>Group</key>
+				<string>Editor Menu for Interface Builder Cocoa Preview</string>
 				<key>GroupID</key>
 				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
 				<key>GroupedAlternate</key>
@@ -200,7 +158,43 @@
 				<key>Title</key>
 				<string>Zoom Out</string>
 			</dict>
+			<dict>
+				<key>Action</key>
+				<string>zoomCanvasOut:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.InterfaceBuilderKit.CanvasZoom.CmdDefinition.zoomOut</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.CanvasZoom.CmdDefinition.zoomOut</string>
+				<key>Group</key>
+				<string>Editor Menu for Interface Builder Cocoa Preview</string>
+				<key>GroupID</key>
+				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>@-</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Zoom</string>
+				<key>Title</key>
+				<string>Zoom Out</string>
+			</dict>
 		</array>
+		<key>Version</key>
+		<integer>3</integer>
+	</dict>
+	<key>Text Key Bindings</key>
+	<dict>
+		<key>Key Bindings</key>
+		<dict>
+			<key></key>
+			<array>
+				<string>complete:</string>
+			</array>
+		</dict>
 		<key>Version</key>
 		<integer>3</integer>
 	</dict>
