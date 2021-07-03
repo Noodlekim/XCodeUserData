@@ -3,19 +3,42 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rf</string>
+	<string>protocol wireframe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>return false</string>
+	<string>protocol &lt;#Class#&gt;WireFrame: AnyObject {
+
+
+}
+
+class &lt;#Class#&gt;WireFrameImp: &lt;#Class#&gt;WireFrame {
+
+    weak var viewController: &lt;#ViewController#&gt;?
+
+    init(viewController: &lt;#ViewController#&gt;) {
+        self.viewController = viewController
+    }
+
+
+}
+
+class Test&lt;#Class#&gt;WireFrameImp: &lt;#Class#&gt;WireFrame {
+
+
+
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>952190B4-579E-4FC9-B362-2752435DF8D7</string>
+	<string>8916814B-094A-42D1-8CE7-D57A2EB0EC8C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>return false</string>
+	<string>Protocol WireFrame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

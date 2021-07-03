@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>comment1</string>
+	<string>mark view life cycles</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    /**
-     &lt;#概要#&gt;
-     
-     - parameter &lt;#parameter name#&gt;: &lt;#内容#&gt;
-     */</string>
+	<string>// MARK: - View life cycles</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>49239314-4F1D-4EA8-865B-70114ADB922C</string>
+	<string>6A204AEB-9861-4020-AC55-EC1F21747891</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>comment pattern1</string>
+	<string>// MARK: - View life cycles</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

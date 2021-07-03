@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fd</string>
+	<string>mark view life cycles</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>for(NSDictionary *&lt;#obj#&gt; in &lt;#array#&gt;){
-    
-        
-    }</string>
+	<string>// MARK: - View life cycles</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>97E72F1F-BF49-4CD6-B928-B4439A5C47E4</string>
+	<string>CAB08677-B58F-4FEA-8613-1767B72D34F8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>for dictionary</string>
+	<string>// MARK: - View life cycles</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

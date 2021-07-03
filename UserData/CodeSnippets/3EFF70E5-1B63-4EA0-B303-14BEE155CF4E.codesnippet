@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>collectionview delegate</string>
+	<string>delegate collectionview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
 		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// Mark: UICollectionViewDelegate, UICollectionViewDataSource
-
 extension &lt;#className#&gt;: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
@@ -48,7 +47,7 @@ extension &lt;#className#&gt;: UICollectionViewDelegate, UICollectionViewDataSou
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>collectionView Delegate</string>
+	<string>CollectionView Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

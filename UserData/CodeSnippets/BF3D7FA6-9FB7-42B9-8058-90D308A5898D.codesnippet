@@ -11,13 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>if let &lt;#name#&gt; = &lt;#optional#&gt; {
                     
-                }</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BF3D7FA6-9FB7-42B9-8058-90D308A5898D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>If optional binding</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>if let</string>
+	<string>If let</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

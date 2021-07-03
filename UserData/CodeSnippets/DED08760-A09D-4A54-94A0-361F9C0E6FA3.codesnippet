@@ -16,8 +16,12 @@
 	<string>DED08760-A09D-4A54-94A0-361F9C0E6FA3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark public</string>
+	<string>// MARK: - Public
+// MARK: - Public
+</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

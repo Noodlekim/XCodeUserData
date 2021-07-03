@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - UITableViewDelegate, DataSource
-
+	<string>// MARK: - UITableViewDelegate, UITableViewDataSource
 extension &lt;#ClassName#&gt;: UITableViewDelegate, UITableViewDataSource {
 
     
@@ -38,8 +37,10 @@ extension &lt;#ClassName#&gt;: UITableViewDelegate, UITableViewDataSource {
 	<string>9FBD242F-C3EB-432A-8CF5-BEC6A9E18286</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tableview delegate, datasource</string>
+	<string>Tableview delegate, datasource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

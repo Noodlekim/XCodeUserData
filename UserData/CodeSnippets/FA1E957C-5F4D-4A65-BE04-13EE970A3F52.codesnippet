@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private let &lt;#name#&gt;: &lt;#type#&gt;</string>
+	<string>private let &lt;#name#&gt;: &lt;#type#&gt; = &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FA1E957C-5F4D-4A65-BE04-13EE970A3F52</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>define `let` type property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private let</string>
+	<string>Private let</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -14,8 +14,10 @@
 	<string>73B19AEC-A8AF-417D-883E-3DCD03E6F83E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark</string>
+	<string>// MARK: - &lt;#name#&gt;</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

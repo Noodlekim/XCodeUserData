@@ -9,13 +9,15 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let strongSelf = self else { return }</string>
+	<string>guard let `self` = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3B3659AD-C4BE-4CAE-8C4F-4C15EAE01942</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strongSelf</string>
+	<string>Guard for weak self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

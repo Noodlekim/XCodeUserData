@@ -3,21 +3,41 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>comment2</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    /**
-     &lt;#概要#&gt;
-     */</string>
+	<string>protocol &lt;#ClassName#&gt;UseCaseInputs {
+
+    func &lt;#func name#&gt;(callback: @escaping ((_ result: Result&lt;&lt;#Value#&gt;, &lt;#Error#&gt;&gt;) -&gt; Void))
+
+
+}
+
+
+final class &lt;#ClassName#&gt;UseCase {
+
+    private let repository: &lt;#Repository#&gt; = &lt;#Repository#&gt;()
+
+
+}
+
+// MARK: - &lt;#name#&gt;
+class Test&lt;#ClassName#&gt;UseCase: &lt;#ClassName#&gt;UseCaseInputs {
+
+
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D57D5F92-478C-4962-BAC9-F6D8B30F50E1</string>
+	<string>C6CE5540-87EB-4439-811B-352DF1DE7E69</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>comment pattern2</string>
+	<string>Protocol UseCase</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

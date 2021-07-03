@@ -3,21 +3,43 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>subnext</string>
+	<string>protocol presenter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>subscribe ({
-            &lt;# do something what you want#&gt;
-        })</string>
+	<string>protocol &lt;#ClassName#&gt;PresenterOutputs: AnyObject {
+
+
+}
+
+protocol &lt;#ClassName#&gt;PresenterInputs {
+    func viewDidLoad()
+
+
+}
+
+
+final class &lt;#ClassName#&gt;Presenter {
+
+
+
+}
+
+// MARK: - &lt;#name#&gt;
+class Test&lt;#ClassName#&gt;PresenterOutputs: &lt;#ClassName#&gt;PresenterOutputs {
+
+
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F76CF280-6AA0-4EAD-A51B-8490F10C914F</string>
+	<string>44A00825-644E-4558-8038-3AB43B15AA57</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>subscribe next</string>
+	<string>Protocol Presenter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
