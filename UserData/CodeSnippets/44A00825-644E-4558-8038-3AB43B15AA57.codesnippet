@@ -23,8 +23,18 @@ protocol &lt;#ClassName#&gt;PresenterInputs {
 
 final class &lt;#ClassName#&gt;Presenter {
 
+    private let view: &lt;#ClassName#&gt;PresenterOutputs
+    private let useCase: &lt;#ClassName#&gt;UseCaseInputs
+    private let wireFrame: &lt;#ClassName#&gt;WireFrame
 
+    init(view: &lt;#ClassName#&gt;PresenterOutputs,
+         useCase: &lt;#ClassName#&gt;UseCaseInputs,
+         wireFrame: &lt;#ClassName#&gt;WireFrame) {
 
+        self.view = view
+        self.useCase = useCase
+        self.wireFrame = wireFrame
+    }
 }
 
 // MARK: - &lt;#name#&gt;

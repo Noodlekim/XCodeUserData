@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>protocol usecase</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -19,7 +19,10 @@
 
 final class &lt;#ClassName#&gt;UseCase {
 
-    private let repository: &lt;#Repository#&gt; = &lt;#Repository#&gt;()
+    private let repository: &lt;#Repository#&gt;
+    init(repository: &lt;#Repository#&gt;) {
+        self.repository = repository
+    }
 
 
 }
